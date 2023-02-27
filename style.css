@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* inizio header */
+
+header{
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(109, 153, 236, 0.993);
+    background-image: url(img/pattern.png);
+    background-size: 290px; /*so che quasi mai si mette un valore in px, meglio usare cover/contain, ma era l unico modo per tenere fede il più possibile all'esercizio*/
+    position: relative;
+}
+
+.title{
+    width: 170px;
+    height: 35px;
+    background-image: url(img/logo.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+}
+
+    

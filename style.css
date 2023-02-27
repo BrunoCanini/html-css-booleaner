@@ -76,3 +76,46 @@ header{
     }
 
     /* Fine class titolo/album */
+    /* inizio class corpo */
+
+    .corpo span{
+        background-color: yellow;
+    }
+
+    .corpo >p{
+        margin-bottom: 25px;
+    }
+
+    ul{
+        margin-bottom: 25px;
+    }
+
+    table{
+        font-size: small;
+        margin-bottom: 20px;
+    }
+
+    thead{
+        background-color: rgb(16, 187, 255);
+        color: white;
+    }
+
+    th{
+        width: 25%;
+        text-align: start
+    }
+
+    .cella{
+        width: 50%;
+    }
+
+    tbody{
+        background-color: aqua;
+    }
+
+    #bianca{
+        background-color: white;
+    }
+
+    /* fine class corpo */
+    /* Fine Main */

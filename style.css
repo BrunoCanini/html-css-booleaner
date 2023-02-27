@@ -15,14 +15,64 @@ header{
     position: relative;
 }
 
-.title{
+.logo{
     width: 170px;
     height: 35px;
     background-image: url(img/logo.svg);
     background-repeat: no-repeat;
     position: absolute;
     bottom: 10px;
-    left: 100px;
+    left: 10%;
 }
 
-    
+    /* fine header */
+
+    .contenitore{
+        width: 80%;
+        height: 100vh;
+        padding-top: 10px;
+        margin: auto;
+    }
+
+    /* inizio Main - class titolo/album */
+
+    .titolo > h5{
+        color: grey;
+    }
+
+    h5 > span{
+        color: rgb(98, 177, 250);
+    }
+
+    .titolo > span{
+        color: grey;
+        font-size: x-small;
+    }
+
+    .album{
+        margin-top: 10px;
+        width: 100%;
+        height: 320px;
+    }
+
+    .left{
+        display: inline-block;
+        width: 50%;
+        height: 80%;
+        background-image: url(./img/tim-1.jpg);
+        background-size: cover;
+    }
+
+    .right{
+        display: inline-block;
+        width: 44%;
+        height: 80%;
+        background-image: url(./img/tim-2.jpg);
+        background-size: cover;
+    }
+
+    .descrizione > p{
+        font-size: xx-small;
+    }
+
+    /* Fine class titolo/album */

@@ -93,6 +93,7 @@ header{
     table{
         font-size: small;
         margin-bottom: 20px;
+        border-collapse: collapse;
     }
 
     thead{
